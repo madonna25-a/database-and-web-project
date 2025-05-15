@@ -67,7 +67,7 @@
                     <td>{$row['Available']}</td>
                     <td>{$row['Price']}</td>
                     <td>
-                        <button class='delete' href='Project/delete.php?id={$row['PetID']}'>DELETE</button>
+                        <button class='delete'id={$row['PetID']}'>DELETE</button>
                     </td>
                 </tr>
                 ";
